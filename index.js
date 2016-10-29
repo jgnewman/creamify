@@ -44,7 +44,7 @@ function canCompile(filename, altExts) {
   var ext = path.extname(filename);
   return exts.indexOf(ext) > -1;
 }
-canCompile.EXTENSIONS = [".cns"];
+canCompile.EXTENSIONS = [".cns", ".cream"];
 
 module.exports = Creamify;
 util.inherits(Creamify, stream.Transform);
