@@ -71,6 +71,10 @@ Creamify.prototype._flush = function (callback) {
     this.emit("creamify", result, this._filename);
     this.push(result);
   } catch(err) {
+    if (console && typeof console.log === 'function') {
+      console.log('\nFailed to compile ' + this._filename);
+      console.log('\n' + err.message + '\n');
+    }
     this.emit("error", err);
     return;
   }
