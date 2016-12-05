@@ -1,8 +1,11 @@
 {
   "name": "creamify",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "Cream & Sugar transformer for use with browserify",
   "main": "index.js",
+  "dependencies": {
+    "cream-and-sugar": "0.6.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/jgnewman/creamify/issues"
   },
-  "homepage": "https://github.com/jgnewman/creamify#readme",
-  "dependencies": {
-    "cream-and-sugar": "0.6.6"
-  }
+  "homepage": "https://github.com/jgnewman/creamify#readme"
 }
