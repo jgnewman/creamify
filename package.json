@@ -1,10 +1,10 @@
 {
   "name": "creamify",
-  "version": "0.6.9",
+  "version": "0.7.0",
   "description": "Cream & Sugar transformer for use with browserify",
   "main": "index.js",
   "dependencies": {
-    "cream-and-sugar": "0.6.9"
+    "cream-and-sugar": "0.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
